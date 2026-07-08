@@ -462,5 +462,8 @@
 
 </details>
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MLNLP-World/Paper-Rebuttal-Tips&type=Date)](https://star-history.com/#MLNLP-World/Paper-Rebuttal-Tips&Date)
 
 
