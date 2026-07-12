@@ -401,6 +401,7 @@
 | 4 | [RebuttalAgent](https://github.com/AutoLab-SAI-SJTU/Paper2Rebuttal) | 基于人工智能的学术论文 rebuttal 助手 |
 | 5 | [AutoRebuttalClaw](https://github.com/nihal2704/autorebuttalclaw) | 面向顶级 ML/AI 会议的 AI 驱动 rebuttal 生成工具 |
 | 6 | [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) | 包含学术写作与意见生成相关 skill/prompt 的仓库 |
+| 7 | [Stanford Agentic Reviewer](https://paperreview.ai) | 可以获取 AI review 的建议帮助修改文章和准备 rebuttal |
 
 </div>
 
