@@ -364,6 +364,8 @@
 
 ## 📖 资源合集
 
+[paper-rebuttal-guidance Skill：使用、评测与限制说明](docs/paper-rebuttal-guidance.md)
+
 ### 🇨🇳 中文经验
 
 <div align="center">

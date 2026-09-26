@@ -1,0 +1,64 @@
+{
+  "build_id": "0e4c2726b32469b763a9fd65c97fe583c1f4ea93d0b18564993af9dccb482b56",
+  "build_inputs": {
+    "artifacts": {
+      "00_manifest.json": "5dafaac040b7e4466b8f08ef29cf302e21d133aa0cf65eeb8a85121bbad2aa55",
+      "01_repo_map.json": "6d8af30cb282bd9cab2f0e8fb0d56ae6f1b4f909a61a8608b5565245f52cd2e0",
+      "02_knowledge.json": "b74bf223956af192677ee6b77c6e406d724b4eba628172ffbed858628c0070d2",
+      "03_capabilities.json": "c432aca4754ad5edba6c29d0751e1a186d386dfc9953391b42359b12e37084c1",
+      "04_workflows.json": "1c5ea9100e93c25cd597d866961080a9e3a25876dcb92709ee463477829cf37c"
+    },
+    "evidence_bundle_sha256": "51d7039d744ab5f7010db66dfe5f03cc723e18bfc1e9008f592d021a286f576d",
+    "name": "paper-rebuttal-guidance",
+    "renderer": {
+      "code_basis": "working-tree file fingerprints; no committed-build claim",
+      "files": {
+        "pyproject.toml": "84f1be62ef54e1275e9f3fba98a1a005df70e544169b6976fac98f5444844c0c",
+        "src/repo2skill/__init__.py": "c604938181cdb6ffad46b8afabf2163a98192fb095925b72547a239ee09451b0",
+        "src/repo2skill/capability.py": "e407792a8b6a78747f5866c2cd192e95ae53204cb4ea2604c607582364f30724",
+        "src/repo2skill/capability_prompt.py": "bf682519f0a28c3c8eb5631302445a6d1fbb689396e48e39649d245b49a8231e",
+        "src/repo2skill/capability_recon.py": "af687065760ceb1ae238ac80d976d0aec7f541c9ef38c36b6eb511622ab2ce9b",
+        "src/repo2skill/cli.py": "14b35c9ef10914931816a7441fa49e55445be48d7c200adc89e01414cc7f6e5b",
+        "src/repo2skill/git_material.py": "de29d2e64c59894f652729118093a28dbd27746acbafb93d8631292758fa8cd5",
+        "src/repo2skill/knowledge.py": "b861e6d3a35b3779a9474c863a011fb641b2f8ad642b4db6609036f2ec548388",
+        "src/repo2skill/knowledge_prompt.py": "b11bb23da35a5df81a01a05561cddfad5584c4a80a83828b63252e6a00651618",
+        "src/repo2skill/knowledge_recon.py": "e230493d938b83e82f08894068c368d00ef05a0b781dabae34688a3616806dd6",
+        "src/repo2skill/material.py": "264e8d907189ab100abb9714398b65fd41c6d6b833fc7559d2ea773025c56300",
+        "src/repo2skill/providers.py": "f016baff88797c04e57227459e56fc25b5b2f8ab6fc4d14e903ecb8d003a73f2",
+        "src/repo2skill/recon.py": "449026f294a9223c186f29d727237f1e4fdebea6f2e2c775c5d3e4e9b97f74f5",
+        "src/repo2skill/recon_prompt.py": "9ca1ae9c030da558ddf97115f88baf9419cbbb253c4ca93cc192d2e5baa7b59a",
+        "src/repo2skill/repo_map.py": "1c64b3edf8106950fbd3eb843cad3cfffa86f1645748414bc48ec60359547afe",
+        "src/repo2skill/scanner.py": "1a1650bb99dd5c496c0b0f39afe612ddb5f844bbbf2c3bc129f5f496f23701dc",
+        "src/repo2skill/semantic.py": "5f801ef4624744ae3d601de8bf0d03ceed49d2ebcbb61907c553413aa5d04aa5",
+        "src/repo2skill/skill_render.py": "453e092bebfc4050dca4951434e486984a757758f547e8bfea7086eb7341107c",
+        "src/repo2skill/workflow.py": "bfaf92be72cdfcbd8b0f75a48180bb762ad43e092ac6f4b6e1118a61fa6c95ae",
+        "src/repo2skill/workflow_prompt.py": "ea727ab079a198247c61885a2524742ef8c563dbe2e7e73ba3e100694aaab1c3",
+        "src/repo2skill/workflow_recon.py": "f5f85d362123355baa51fbd70d7066399141c00cd59c9a02c164efa378194436",
+        "uv.lock": "f18a3467977e83d42811b6bb12b18ac48e444c6aa592cf4b7d0a7186854970d1"
+      },
+      "renderer_version": "1.0.0",
+      "template_version": "1.0.0"
+    },
+    "schemas": {
+      "00_manifest.schema.json": "8bd6b82bd6a6b1d6aaaa10bb1f6cca064c850ad35743d2021c1d8d982490e31c",
+      "01_repo_map.schema.json": "2a7a84f020b8a3c730de81c8fa9e1dcf9e0451d776e1e60b35b9a4c0ef8fb13e",
+      "02_knowledge.schema.json": "41c528e758e24a28d87f00e5236e63da921c13e69b234127c69f9d735322e11e",
+      "03_capabilities.schema.json": "bf60db74bc63dd1ca3e56b3c47fc98bf3f585ba5da2e3e4753cb4d47d4524c48",
+      "04_workflows.schema.json": "c909680756682c348fdc7ff9b68e87993555afc84a28e560796066a2359ed302"
+    }
+  },
+  "files": {
+    "SKILL.md": "220d9d83e3200c6f324e852c899b5058fd685e90544823ee97529107d242d7ed",
+    "references/source-materials.json": "427cb035393640b0a927af976db3411d3223b9544fab31a4d96030095ad144bb",
+    "references/traceability.json": "2b08f3b444658c37b4de9eff19ac7f3fa8b1c707eafc7c3d157b48a95421c624",
+    "references/workflow-001.md": "860c0822091ed20d147000b3a310b73e5c07f8d41bd3101ca0aa6251ee68b9b2",
+    "references/workflow-002.md": "df61d99d2a857d1d33cd524a004b5e77e6e06d2bb43ebe4d010f80bcbe98149f"
+  },
+  "license_status": "Unconfirmed; author review required. No endorsement claimed.",
+  "repository": "Paper-Rebuttal-Tips",
+  "schema_version": "1.0.0",
+  "source_commit_sha": "4fe2b488c1ebc83eba9c91fbd2fc2eb51abeba4c",
+  "source_remote_url": "https://github.com/MLNLP-World/Paper-Rebuttal-Tips.git",
+  "status": "DRAFT: awaiting static review and behavioral evaluation",
+  "traceability": "references/traceability.json"
+}
