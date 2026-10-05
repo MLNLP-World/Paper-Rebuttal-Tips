@@ -62,18 +62,7 @@
 
 ---
 
-<a id="rebuttal-skill"></a>
 
-## 🤖 Rebuttal Skill
-
-除了逐条阅读 Rebuttal Tips，本仓库还提供了一个可直接加载使用的
-[`paper-rebuttal-router`](./skills/paper-rebuttal-router/README.md) Skill。
-
-它将仓库中的 rebuttal 经验整理为可复用的 Workflow，并根据用户当前的任务和 reviewer point 自动选择合适的处理路径。用户可以直接用它分析 reviewer comments、检查已有 rebuttal、起草回应，或处理缺实验、证据不足等常见 rebuttal 场景。
-
-👉 **[查看 Skill 介绍、安装方法与使用示例](./skills/paper-rebuttal-router/README.md)**
-
----
 
 ## 📚 Rebuttal Tips
 
@@ -376,6 +365,19 @@
 
 ---
 
+<a id="rebuttal-skill"></a>
+
+## 🤖 Rebuttal Skill
+
+除了逐条阅读 Rebuttal Tips，本仓库还提供了一个可直接加载使用的
+[`paper-rebuttal-router`](./skills/paper-rebuttal-router/README.md) Skill。
+
+它将仓库中的 rebuttal 经验整理为可复用的 Workflow，并根据用户当前的任务和 reviewer point 自动选择合适的处理路径。用户可以直接用它分析 reviewer comments、检查已有 rebuttal、起草回应，或处理缺实验、证据不足等常见 rebuttal 场景。
+
+👉 **[查看 Skill 介绍、安装方法与使用示例](./skills/paper-rebuttal-router/README.md)**
+
+---
+
 ## 📖 资源合集
 
 ### 🇨🇳 中文经验
@@ -458,7 +460,20 @@
     <img src="https://images.weserv.nl/?url=github.com/qinlibo-hit.png?v=4&mask=circle" width="80"></a>
 </p>
 
+## 👥 贡献者列表
+<p align="left">
+  <b>感谢以下成员对本项目的贡献</b>
+</p>
+
+<p align="left">
+    <a href="https://github.com/rinceronte">
+    <img src="https://images.weserv.nl/?url=github.com/rinceronte.png?v=4&mask=circle" width="80"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/choucisan">
+    <img src="https://images.weserv.nl/?url=github.com/choucisan.png?v=4&mask=circle" width="80"></a>
+</p>
 ---
+
 
 ## 🤝 欢迎贡献
 
