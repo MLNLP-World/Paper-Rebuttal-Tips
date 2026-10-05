@@ -1,0 +1,509 @@
+{
+  "build_id": "bc47c8093dd4c899242211ab465ec9a3318e307724afd9ceacf5b6b778444c77",
+  "build_inputs": {
+    "artifacts": {
+      "00_manifest.json": "5dafaac040b7e4466b8f08ef29cf302e21d133aa0cf65eeb8a85121bbad2aa55",
+      "01_repo_map.json": "0641ce61e1d8e6eb56e1dca21e59c5954f5e606d11b479a5a8a33264671149dd",
+      "02_knowledge.json": "e9e1c43da19997f5fb43f0672e3742629720ba657efde75fd5156dd3f5a72116",
+      "03_capabilities.json": "e6573f880a59491aeec6bd76d33d231438350818118255dcdd41bbae150a6422",
+      "04_workflows.json": "7569a43b7b701505024d37abf8cb04cb8b0e466c684e688e9180607ddcd13609"
+    },
+    "entry_description": "This Skill gives guidance for paper-rebuttal and reviewer-comment requests, and for organizing user-supplied tip contributions into the documented card structure. It selects applicable workflows by user intent and reviewer point — topic relevance, applicability conditions, and the user's real evidence, results, and plans — drafts reply text only when the user explicitly asks, never fabricates experiments or results, and never claims completion of planned work.",
+    "evidence_bundle_sha256": "609be21697641da71cbcc243b0acd77865b725bcdb27d4312fcc3ff107acd6bb",
+    "name": "paper-rebuttal-router-candidate-rev1",
+    "renderer": {
+      "code_basis": "working-tree file fingerprints; no committed-build claim",
+      "files": {
+        "pyproject.toml": "84f1be62ef54e1275e9f3fba98a1a005df70e544169b6976fac98f5444844c0c",
+        "src/repo2skill/__init__.py": "c604938181cdb6ffad46b8afabf2163a98192fb095925b72547a239ee09451b0",
+        "src/repo2skill/_svg_worker.py": "86730d44083a0845c4445d13420f0a4165201dc70d61a1eeaf0cabe31a33c15a",
+        "src/repo2skill/budget.py": "896496b833c9c7efe7edcafd479ea9ebf80604b769ea78fa5aa9f8f06a9bcb2f",
+        "src/repo2skill/capability.py": "e407792a8b6a78747f5866c2cd192e95ae53204cb4ea2604c607582364f30724",
+        "src/repo2skill/capability_prompt.py": "3c93fcc3cda78ce0016cbeeea6b29c23c3b2aa3ade41813c0bb25bcfbe35702d",
+        "src/repo2skill/capability_recon.py": "81f9d5c8b472478977c6919ecf138b139b72da6ed3a50556e24ba9f29b3c3494",
+        "src/repo2skill/cli.py": "721f559d761f512aeef88cf58e24b7a491c1002ef82a40b21622f9d7ffcf6e17",
+        "src/repo2skill/frozen_input.py": "b26b57cac1174b5c3cdbea2544042036492181b92fb54c7c041ee2285b7e5cd1",
+        "src/repo2skill/git_material.py": "ef04bb6240955b026fcadbd17438872b147d12428dcd0ad66508071811e7f2d2",
+        "src/repo2skill/knowledge.py": "b861e6d3a35b3779a9474c863a011fb641b2f8ad642b4db6609036f2ec548388",
+        "src/repo2skill/knowledge_prompt.py": "5ac060473eb83695c11593aa4a90a4a4ec61014700d29b59c64968fedf0ede29",
+        "src/repo2skill/knowledge_recon.py": "76403895867ae36e51001bfed6be539c6bfb91e3bb0fb73a6489d950947baedb",
+        "src/repo2skill/material.py": "0e492b77430cfae7d9db276c4d9769c376560290fb24a177c3a5d85b905f5f9c",
+        "src/repo2skill/providers.py": "aecbc0b8b8c0c56db9b1291de6bf01659b18a392753d0ce3d2ef7d1ec0aaa341",
+        "src/repo2skill/recon.py": "f44ff82b106048b67ea0db7b105d4a81e30988be7d91c3d22b4a572b1f242cf8",
+        "src/repo2skill/recon_prompt.py": "fe6c1ea77ce4fb9062030159f1c4578ecdbd78eab88095d01526780fff189348",
+        "src/repo2skill/repo_map.py": "1c64b3edf8106950fbd3eb843cad3cfffa86f1645748414bc48ec60359547afe",
+        "src/repo2skill/run_layout.py": "cc60cc45a029c668950435f43b339205d85ad2830bf7b845b634215720cab7a8",
+        "src/repo2skill/scanner.py": "783a7b86b59ab965a7b9d5317d9817f765b95b2ca8a669e0b264278c85941cbb",
+        "src/repo2skill/semantic.py": "5f801ef4624744ae3d601de8bf0d03ceed49d2ebcbb61907c553413aa5d04aa5",
+        "src/repo2skill/skill_render.py": "64f7073b55be2ad6de2d4bb77249194fb18ce74736579259dc4287a355f3608d",
+        "src/repo2skill/svg_material.py": "b1faede795847e93686ac3df654d4e88d5b08105a6b0a7fc1f8d04464984636e",
+        "src/repo2skill/visual_reading.py": "55c274240b6c33b3e9f1f86c3ac1689c4d22286c6087ddce27483ab8890f19ca",
+        "src/repo2skill/workflow.py": "bfaf92be72cdfcbd8b0f75a48180bb762ad43e092ac6f4b6e1118a61fa6c95ae",
+        "src/repo2skill/workflow_prompt.py": "de48cc0f84a62760957a0b1509df3ca0dde5fb0659f68703be087eda123b5ccf",
+        "src/repo2skill/workflow_recon.py": "d0184c0a6cacd51f75e78307b7442aa49889509475b23907509e27b1b235db20",
+        "uv.lock": "f18a3467977e83d42811b6bb12b18ac48e444c6aa592cf4b7d0a7186854970d1"
+      },
+      "renderer_version": "1.1.1",
+      "template_version": "1.1.0"
+    },
+    "router": {
+      "execution_rules": {
+        "analysis_only": "Split, classify, judge applicability, and list candidate workflows and missing evidence; do not draft replies, do not claim a review of a draft that was not supplied, and do not execute draft workflows without a drafting request.",
+        "drafting": "Execute draft workflows only when the user explicitly asks to draft a reply.",
+        "existing_reply_review": "Only claim a reply was reviewed when the user actually supplied it; use wf-review-supplied-reply-for-documented-pitfalls; may point out which drafting workflows could improve the reply, but must not rewrite the reply automatically.",
+        "partial_failure": "Missing material marks that reviewer point's missing evidence and limits only that point's workflow(s); other independent points continue; one missing experiment never stops the whole request.",
+        "tip_organization": "A tip contribution request enters wf-organize-tip-card-contribution directly; do not route it through rebuttal topic selection first."
+      },
+      "intent_classes": [
+        {
+          "description": "Analyze the reviewer comments: split into reviewer points, classify topics, judge applicability, and list candidate workflows and missing evidence; no drafting.",
+          "id": "reviewer-comment-analysis"
+        },
+        {
+          "description": "Review a user-supplied existing rebuttal draft against the documented pitfalls.",
+          "id": "existing-reply-review"
+        },
+        {
+          "description": "Draft rebuttal reply text, only on the user's explicit drafting request.",
+          "id": "drafting"
+        },
+        {
+          "description": "Organize a user-supplied tip contribution into the documented four-part card structure.",
+          "id": "tip-organization"
+        }
+      ],
+      "origin_notice": "Compiler-authored orchestration by the repo2skill compiler. The source repository supplies the rebuttal strategies and contribution tips; the routing rules, intent classes, topic tags, and route table are navigation metadata authored by the compiler from the accepted workflow and capability task semantics — not behavior described in the source repository and not author domain knowledge. No numeric scores, priority algorithms, or confidence thresholds are used. Each route's Reference points at that workflow's validated record, which carries its full scope, steps, and limitations.",
+      "output_protocol": [
+        "reviewer point",
+        "existing reply or not supplied",
+        "selected Workflow(s)",
+        "applicability reason",
+        "concrete analysis / feedback",
+        "requested draft (only when the user asked to draft)",
+        "missing evidence",
+        "unresolved items"
+      ],
+      "pipeline": "user intent -> reviewer point -> topic relevance -> applicability -> user evidence / results / plan availability -> select zero, one, or multiple workflows from the route table below -> execute the selected workflow(s) -> aggregate per-point results",
+      "route_table": [
+        {
+          "applicability_conditions": "Applies only when reviewer comments contain points that are themselves vague, low-quality, or whose concrete concern cannot be located; when a group of comments mixes such points with clearly locatable points, this workflow processes only the vague or unlocatable ones.",
+          "capability_ids": [
+            "draft-vague-review-response"
+          ],
+          "intent_class": "reviewer-comment-analysis",
+          "limitations_note": "Processes only the vague or unlocatable points through draft-vague-review-response; clearly locatable points are left to the Router's domain-workflow selection; never claims a general all-comment analysis.",
+          "role": "analysis",
+          "topic_tags": [
+            "vague points",
+            "low-quality points",
+            "unlocatable points"
+          ],
+          "trigger_description": "at least one reviewer point is itself vague, low-quality, or its concrete concern cannot be located",
+          "workflow_id": "wf-analyze-reviewer-comments"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer requests ablation evidence.",
+          "capability_ids": [
+            "draft-ablation-evidence-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Requires the user's actual modules and measured values; M1/M2/M3 and XXX are example placeholders, never substituted for the user's facts.",
+          "role": "draft",
+          "topic_tags": [
+            "ablation evidence"
+          ],
+          "trigger_description": "the reviewer comment requests ablation evidence",
+          "workflow_id": "wf-draft-ablation-evidence-reply"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer questions baseline coverage.",
+          "capability_ids": [
+            "draft-baseline-coverage-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The fallback branch does not promise an actual full additional comparison when it cannot be completed in the rebuttal period; needs the user's real baseline details.",
+          "role": "draft",
+          "topic_tags": [
+            "baseline coverage"
+          ],
+          "trigger_description": "the reviewer point questions baseline coverage",
+          "workflow_id": "wf-draft-baseline-coverage-response"
+        },
+        {
+          "applicability_conditions": "Applies when the critique targets unclear writing or presentation.",
+          "capability_ids": [
+            "draft-concrete-revision-plan"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Section and symbol names are filled from the user's paper; the plan is a commitment, not a completed revision.",
+          "role": "draft",
+          "topic_tags": [
+            "unclear writing",
+            "revision plan"
+          ],
+          "trigger_description": "the critique targets unclear writing or presentation",
+          "workflow_id": "wf-draft-concrete-revision-plan"
+        },
+        {
+          "applicability_conditions": "Applies when the reviewer's critique is that the contribution statement is unclear or that concrete contributions are hard to identify, not when the author merely claims the contributions were already listed.",
+          "capability_ids": [
+            "draft-contribution-focus-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Needs the user's actual contribution structure; not a general writing-advice workflow.",
+          "role": "draft",
+          "topic_tags": [
+            "unclear contribution"
+          ],
+          "trigger_description": "the critique says the contribution statement is unclear or concrete contributions are hard to identify",
+          "workflow_id": "wf-draft-contribution-focus-response"
+        },
+        {
+          "applicability_conditions": "Applies when dataset size or scale is the reviewer's concern.",
+          "capability_ids": [
+            "draft-data-scale-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Dataset names and scenario coverage come from the user's real data; example names are placeholders.",
+          "role": "draft",
+          "topic_tags": [
+            "data scale"
+          ],
+          "trigger_description": "dataset size or scale is the reviewer point's concern",
+          "workflow_id": "wf-draft-data-scale-response"
+        },
+        {
+          "applicability_conditions": "Applies to the two cited card scenarios (method complexity and hyperparameter sensitivity); each scenario keeps its own recommended strategy and must not be substituted by the ablation task.",
+          "capability_ids": [
+            "draft-design-necessity-and-hyperparameter-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Each of the two cited scenarios keeps its own recommended strategy; they must not be conflated.",
+          "role": "draft",
+          "topic_tags": [
+            "design necessity",
+            "hyperparameter sensitivity"
+          ],
+          "trigger_description": "the point concerns method complexity or hyperparameter sensitivity (the two cited card scenarios)",
+          "workflow_id": "wf-draft-design-necessity-and-hyperparameter-response"
+        },
+        {
+          "applicability_conditions": "Applies when the fairness of the comparison is questioned.",
+          "capability_ids": [
+            "draft-fairness-details-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The configuration table (identical settings, per-method defaults, extra settings) must be filled with the user's actual comparison configuration.",
+          "role": "draft",
+          "topic_tags": [
+            "comparison fairness"
+          ],
+          "trigger_description": "the fairness of the comparison is questioned",
+          "workflow_id": "wf-draft-fairness-details-response"
+        },
+        {
+          "applicability_conditions": "Applies when generalization is the reviewer's concern.",
+          "capability_ids": [
+            "draft-generalization-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Current coverage supports only preliminary validation and must not be reported as a verified generalization result.",
+          "role": "draft",
+          "topic_tags": [
+            "generalization"
+          ],
+          "trigger_description": "generalization is the reviewer point's concern",
+          "workflow_id": "wf-draft-generalization-response"
+        },
+        {
+          "applicability_conditions": "Applies when the requested experiment is infeasible within the rebuttal period.",
+          "capability_ids": [
+            "draft-infeasible-experiment-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "A small-scale result is a preliminary reference point, not a claim that the requested experiment was completed.",
+          "role": "draft",
+          "topic_tags": [
+            "infeasible experiment"
+          ],
+          "trigger_description": "the requested experiment is infeasible within the rebuttal period",
+          "workflow_id": "wf-draft-infeasible-experiment-response"
+        },
+        {
+          "applicability_conditions": "Applies when the quality of intermediate outputs is the reviewer's concern.",
+          "capability_ids": [
+            "draft-intermediate-quality-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "GPT-4 and Gemini-Pro are the source card's named example judges, not prescribed tools; the user's actual evaluation setup decides.",
+          "role": "draft",
+          "topic_tags": [
+            "intermediate output quality"
+          ],
+          "trigger_description": "the quality of intermediate outputs is the reviewer point's concern",
+          "workflow_id": "wf-draft-intermediate-quality-response"
+        },
+        {
+          "applicability_conditions": "Applies when data leakage is the reviewer's concern.",
+          "capability_ids": [
+            "draft-leakage-check-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The card gives no concrete deduplication algorithm; the check description must come from the user's actual pipeline.",
+          "role": "draft",
+          "topic_tags": [
+            "data leakage"
+          ],
+          "trigger_description": "data leakage is the reviewer point's concern",
+          "workflow_id": "wf-draft-leakage-check-response"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer asks for limitations or a weakness discussion.",
+          "capability_ids": [
+            "draft-limitations-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The named limitations are the card's examples and do not apply to every method; use the user's real limitations.",
+          "role": "draft",
+          "topic_tags": [
+            "limitations discussion"
+          ],
+          "trigger_description": "the reviewer asks for limitations or a weakness discussion",
+          "workflow_id": "wf-draft-limitations-response"
+        },
+        {
+          "applicability_conditions": "Applies when dynamic capability is the reviewer's concern.",
+          "capability_ids": [
+            "draft-longitudinal-evidence-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Offline longitudinal zero-shot runs apply only when the user's offline setup matches the card's framing; the 100-task stream and every-20-task evaluation are example settings, not recommended values.",
+          "role": "draft",
+          "topic_tags": [
+            "dynamic capability",
+            "longitudinal evidence"
+          ],
+          "trigger_description": "dynamic capability is the reviewer point's concern",
+          "workflow_id": "wf-draft-longitudinal-evidence-response"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer asks for theory or mechanism justification.",
+          "capability_ids": [
+            "draft-mechanism-and-theory-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The intuition chain and analytic statement are filled from the user's own method analysis, not invented theory.",
+          "role": "draft",
+          "topic_tags": [
+            "theory",
+            "mechanism"
+          ],
+          "trigger_description": "the reviewer asks for theory or mechanism justification",
+          "workflow_id": "wf-draft-mechanism-and-theory-response"
+        },
+        {
+          "applicability_conditions": "Applies when the metric choice is the reviewer's concern.",
+          "capability_ids": [
+            "draft-metric-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Baseline names and metric tokens are placeholders; the added-metric advantage is example text until the user supplies their results.",
+          "role": "draft",
+          "topic_tags": [
+            "metric choice"
+          ],
+          "trigger_description": "the metric choice is the reviewer point's concern",
+          "workflow_id": "wf-draft-metric-response"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer asks for an experiment or analysis not yet present.",
+          "capability_ids": [
+            "draft-missing-experiment-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Giving new results is conditioned on time allowing; the sample answer's elements are the card's examples, not the user's results; missing material limits only this point.",
+          "role": "draft",
+          "topic_tags": [
+            "missing experiment"
+          ],
+          "trigger_description": "the reviewer asks for an experiment or analysis not yet present",
+          "workflow_id": "wf-draft-missing-experiment-response"
+        },
+        {
+          "applicability_conditions": "Applies only when the user judges that the criticism rests on a misunderstanding of the method; requires the user to supply the actual method flow and its dependencies.",
+          "capability_ids": [
+            "draft-misunderstanding-correction"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Applies only on the user's own judgment of a misunderstanding; requires the user's actual method flow and dependencies; any no-risk conclusion stays within the cited bounds.",
+          "role": "draft",
+          "topic_tags": [
+            "misunderstanding"
+          ],
+          "trigger_description": "the user judges that the criticism rests on a misunderstanding of the method",
+          "workflow_id": "wf-draft-misunderstanding-correction"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer questions whether the problem is worth solving.",
+          "capability_ids": [
+            "draft-motivation-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Scenario, consequence, and cost must come from the user's real application.",
+          "role": "draft",
+          "topic_tags": [
+            "motivation"
+          ],
+          "trigger_description": "the reviewer questions whether the problem is worth solving",
+          "workflow_id": "wf-draft-motivation-response"
+        },
+        {
+          "applicability_conditions": "Applies when a reviewer questions novelty or the relation to prior work.",
+          "capability_ids": [
+            "draft-novelty-and-related-work-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Core innovation, synergy mechanism, and module roles are filled from the user's paper; the workflow does not verify novelty itself.",
+          "role": "draft",
+          "topic_tags": [
+            "novelty",
+            "related work"
+          ],
+          "trigger_description": "the reviewer questions novelty or the relation to prior work",
+          "workflow_id": "wf-draft-novelty-and-related-work-response"
+        },
+        {
+          "applicability_conditions": "Applies when overhead or cost is the reviewer's concern.",
+          "capability_ids": [
+            "draft-overhead-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Cost source, complexity, and percentages are filled from the user's own measurements; the card's example numbers are placeholders.",
+          "role": "draft",
+          "topic_tags": [
+            "computational overhead"
+          ],
+          "trigger_description": "overhead or cost is the reviewer point's concern",
+          "workflow_id": "wf-draft-overhead-response"
+        },
+        {
+          "applicability_conditions": "Applies to reviews whose concerns are partly or wholly too general to locate; the AC escalation is conditional, not required in every case.",
+          "capability_ids": [
+            "draft-vague-review-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "AC escalation is conditional, not required in every case; requires the user's review text.",
+          "role": "draft",
+          "topic_tags": [
+            "vague review"
+          ],
+          "trigger_description": "the review's concerns are partly or wholly too general to locate",
+          "workflow_id": "wf-draft-reply-for-vague-review"
+        },
+        {
+          "applicability_conditions": "Applies when reproducibility is the reviewer's concern.",
+          "capability_ids": [
+            "draft-reproducibility-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "The anonymous repository and detailed settings are example states in the card; no actual URL or settings are fabricated — only the user's real release state is used.",
+          "role": "draft",
+          "topic_tags": [
+            "reproducibility"
+          ],
+          "trigger_description": "reproducibility is the reviewer point's concern",
+          "workflow_id": "wf-draft-reproducibility-response"
+        },
+        {
+          "applicability_conditions": "Applies when the improvement size is the reviewer's concern.",
+          "capability_ids": [
+            "draft-small-gain-response"
+          ],
+          "intent_class": "drafting",
+          "limitations_note": "Statistical significance and variance results are revision commitments, not inferred results; the card supplies no concrete gain, variance, or significance numbers to quote as the user's.",
+          "role": "draft",
+          "topic_tags": [
+            "small improvement"
+          ],
+          "trigger_description": "the improvement size is the reviewer point's concern",
+          "workflow_id": "wf-draft-small-gain-response"
+        },
+        {
+          "applicability_conditions": "Applies to organizing tip material for contribution, not to drafting replies to a user's reviewers.",
+          "capability_ids": [
+            "organize-tip-card-contribution"
+          ],
+          "intent_class": "tip-organization",
+          "limitations_note": "Four-part card organization only; not a rebuttal strategy; the contribution path is limited to the text template and submission channel (Issue or PR) — no automatic submission.",
+          "role": "tip",
+          "topic_tags": [
+            "tip contribution"
+          ],
+          "trigger_description": "the user supplies tip material to organize into the documented card structure",
+          "workflow_id": "wf-organize-tip-card-contribution"
+        },
+        {
+          "applicability_conditions": "Applies to drafts the user supplies for assessment.",
+          "capability_ids": [
+            "assess-supplied-response-for-documented-pitfalls"
+          ],
+          "intent_class": "existing-reply-review",
+          "limitations_note": "Reports gaps only; does not automatically rewrite the reply; the pitfall synthesis is scoped to the cited negative answers.",
+          "role": "review",
+          "topic_tags": [
+            "supplied draft review"
+          ],
+          "trigger_description": "the user supplies a rebuttal draft and reviewer concerns for review",
+          "workflow_id": "wf-review-supplied-reply-for-documented-pitfalls"
+        }
+      ],
+      "version": "1.0.0"
+    },
+    "schemas": {
+      "00_manifest.schema.json": "8bd6b82bd6a6b1d6aaaa10bb1f6cca064c850ad35743d2021c1d8d982490e31c",
+      "01_repo_map.schema.json": "2a7a84f020b8a3c730de81c8fa9e1dcf9e0451d776e1e60b35b9a4c0ef8fb13e",
+      "02_knowledge.schema.json": "41c528e758e24a28d87f00e5236e63da921c13e69b234127c69f9d735322e11e",
+      "03_capabilities.schema.json": "bf60db74bc63dd1ca3e56b3c47fc98bf3f585ba5da2e3e4753cb4d47d4524c48",
+      "04_workflows.schema.json": "c909680756682c348fdc7ff9b68e87993555afc84a28e560796066a2359ed302"
+    }
+  },
+  "files": {
+    "SKILL.md": "f0b6d95fc8a8c9996e18bdea300c0721b87a73653a9c797457f5521a8b6bb5d1",
+    "references/router.md": "a72c24137d3a95e45f6272a0c1c447f54b91a64096d7653b28fe21a4f6eb32ea",
+    "references/source-materials.json": "dff0d5671f18380c754a641837e7cc894e373ecd8966088b8dd1f011fc297b2c",
+    "references/traceability.json": "867a76990cf56b1e231ac44176a0f14490f472d08c1cddca938952526adf3cf4",
+    "references/workflow-001.md": "3ca40a8232201c411f5844c7810ae204e5cb9e7a8ea1809398274fd027fbc8f1",
+    "references/workflow-002.md": "4915c40a5d86b4c7d5b916f330e1d6e45f541f99059279728adf11c8dec8a08c",
+    "references/workflow-003.md": "726877ebcb787237ac0d69303cae2fddfb18a1ee61c1d4cee36efa905dd822dd",
+    "references/workflow-004.md": "3f28e1311d9e0d71c5d60deb7f8369c5585fb48aec00390ceec9644e7513493f",
+    "references/workflow-005.md": "99d852b79a1bdc2b9eb8239d4a85032e07e28414c1d59901aa3fd88d21a1865f",
+    "references/workflow-006.md": "19329197eb7057882cd75bf284c78c251309183eb66e2dd79c378e7d7a79e02b",
+    "references/workflow-007.md": "e87e40391409b3159dc5f9e455d792dee8cbf57676e79647021c2dc1f3d290a5",
+    "references/workflow-008.md": "d8616f72168a200dd45ebe8bdd8c9df210e08058eb40e568f493a93b0a941b68",
+    "references/workflow-009.md": "c9e9936d300a2cf5abfc291f8dcbf5eb8c82dc823b9e82d88f412abdf4ffe490",
+    "references/workflow-010.md": "a3cc93cf087e92c094d27b0524bdbe98d952b5060db3567542c9a2c79ad5e475",
+    "references/workflow-011.md": "00e0e6399e4c31d0636e06ed54ff8099c96e7b8e63ba71ca180129967141a2ad",
+    "references/workflow-012.md": "44ed3671e730aa8f1689bf8599f092d8e7ab7385f203e299a101fcb5938f9671",
+    "references/workflow-013.md": "7eeac212d348a31253229e6e530f354714186c34684f702625fad6c70f00f6ae",
+    "references/workflow-014.md": "0876f7c3ad6fcde83c4e041b590c8e684f8a566b790800219ec9d6cd34537b42",
+    "references/workflow-015.md": "4d4fca9e45cebdbe1f0dbbff794ec581a0f7d31a42d9165188f12e5e0eee9e7f",
+    "references/workflow-016.md": "b4ce9ebf6d24899a2d660e3efdfe50e02ae8783dbd2b830d936ee156d6ee9ce9",
+    "references/workflow-017.md": "5e9f48cd51a970562b378dedf617a3671699aec14e30c3644c138d55c6e202ed",
+    "references/workflow-018.md": "5b3388676105b19a735293280129d11c2d9b6c1bd6f13f95d149c122d5de0fde",
+    "references/workflow-019.md": "aca636b0ff59a57aa8b6a16369e54d5d24964415212dfa5f5a357d2062dc6fb9",
+    "references/workflow-020.md": "de339a5e77aea30bfc25459b27fcde95d8824ed1a598c9dea4eb61a24ee1050d",
+    "references/workflow-021.md": "b164f5ae7a749903f3947f237cb8ad299d035bc6b69e9a9c6ab11951218b1748",
+    "references/workflow-022.md": "eaa7adcd8d12d417717196a3e020bfc53b10afe4eebc742478e77a3736a54ddd",
+    "references/workflow-023.md": "6ceb0a9d60f1157cff9476da55c57836f7c75d705c0503202be2ff5544619b39",
+    "references/workflow-024.md": "2db7d4083af946fbe1fc0c8255e1e34a27d57dac0a4343e3990db9741660843e",
+    "references/workflow-025.md": "2df083dd0b323b2a1b6d5a4bec75ea2a3d296bdcf3358b96d3cdb4a4e488dfec",
+    "references/workflow-026.md": "0a2884043feba51857dbd51473cb7f148693594ccfc7071ed6058fcf2e7cab48"
+  },
+  "license_status": "Unconfirmed; author review required. No endorsement claimed.",
+  "repository": "Paper-Rebuttal-Tips",
+  "schema_version": "1.0.0",
+  "source_commit_sha": "4fe2b488c1ebc83eba9c91fbd2fc2eb51abeba4c",
+  "source_remote_url": "https://github.com/MLNLP-World/Paper-Rebuttal-Tips.git",
+  "status": "DRAFT: awaiting static review and behavioral evaluation",
+  "traceability": "references/traceability.json"
+}
