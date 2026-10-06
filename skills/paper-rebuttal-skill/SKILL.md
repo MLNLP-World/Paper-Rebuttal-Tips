@@ -1,9 +1,9 @@
 ---
-name: "paper-rebuttal-router"
+name: "paper-rebuttal-skill"
 description: "This Skill gives guidance for paper-rebuttal and reviewer-comment requests, and for organizing user-supplied tip contributions into the documented card structure. It selects applicable workflows by user intent and reviewer point \u2014 topic relevance, applicability conditions, and the user's real evidence, results, and plans \u2014 drafts reply text only when the user explicitly asks, never fabricates experiments or results, and never claims completion of planned work."
 ---
 
-# paper-rebuttal-router
+# paper-rebuttal-skill
 
 Candidate guidance — awaiting static review and behavioral evaluation.
 
